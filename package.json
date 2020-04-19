@@ -1,0 +1,30 @@
+{
+    "name": "basic",
+    "version": "0.0.0",
+    "author": {
+        "email": "info@ghoststead.com"
+    },
+    "keywords": [
+        "ghost-theme"
+    ],
+    "engines": {
+        "ghost": ">=3.0.0",
+        "ghost-api": "v3"
+    },
+    "scripts": {
+        "dev": "gulp",
+        "build": "gulp build",
+        "zip": "gulp zip",
+        "gscan": "gscan ."
+    },
+    "devDependencies": {
+        "gscan": "^3.5.1",
+        "gulp": "^4.0.2",
+        "gulp-livereload": "^4.0.2",
+        "gulp-zip": "^5.0.1",
+        "pump": "^3.0.0"
+    },
+    "config": {
+        "posts_per_page": 5
+    }
+}
